@@ -76,21 +76,21 @@ const Programs = () => {
               <Card 
                 key={program.id} 
                 className={`relative transition-all duration-300 hover:shadow-xl hover:-translate-y-2 ${
-                  program.featured ? 'ring-2 ring-blue-500 shadow-lg' : ''
+                  program.featured ? 'ring-2 ring-green-500 shadow-lg' : ''
                 }`}
               >
                 {program.featured && (
                   <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                    <Badge className="bg-blue-600 text-white px-4 py-1">Most Popular</Badge>
+                    <Badge className="bg-green-600 text-white px-4 py-1">Most Popular</Badge>
                   </div>
                 )}
                 
                 <CardHeader className="text-center pb-4">
-                  <div className="mx-auto mb-4 p-3 bg-blue-100 rounded-full w-fit">
-                    <Icon className="h-8 w-8 text-blue-600" />
+                  <div className="mx-auto mb-4 p-3 bg-green-100 rounded-full w-fit">
+                    <Icon className="h-8 w-8 text-green-600" />
                   </div>
                   <CardTitle className="text-xl mb-2">{program.title}</CardTitle>
-                  <div className="text-3xl font-bold text-blue-600">{program.price}</div>
+                  <div className="text-3xl font-bold text-green-600">{program.price}</div>
                 </CardHeader>
                 
                 <CardContent className="space-y-4">
@@ -123,7 +123,7 @@ const Programs = () => {
                   <Button 
                     className={`w-full mt-6 ${
                       program.featured 
-                        ? 'bg-blue-600 hover:bg-blue-700' 
+                        ? 'bg-green-600 hover:bg-green-700' 
                         : 'bg-gray-900 hover:bg-gray-800'
                     }`}
                   >

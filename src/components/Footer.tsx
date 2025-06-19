@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="text-2xl font-bold">
-              Crio<span className="text-blue-400">.do</span>
+              Crio<span className="text-green-400">.do</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
               Empowering the next generation of developers through hands-on, 
@@ -68,7 +68,7 @@ const Footer = () => {
                 placeholder="Enter your email" 
                 className="bg-gray-800 border-gray-700 text-white placeholder:text-gray-400"
               />
-              <Button className="w-full bg-blue-600 hover:bg-blue-700">
+              <Button className="w-full bg-green-600 hover:bg-green-700">
                 <Mail className="mr-2 h-4 w-4" />
                 Subscribe
               </Button>

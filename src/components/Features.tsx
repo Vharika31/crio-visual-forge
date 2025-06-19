@@ -62,8 +62,8 @@ const Features = () => {
               const Icon = stat.icon;
               return (
                 <div key={index} className="text-center">
-                  <div className="mx-auto mb-4 p-3 bg-blue-100 rounded-full w-fit">
-                    <Icon className="h-6 w-6 text-blue-600" />
+                  <div className="mx-auto mb-4 p-3 bg-green-100 rounded-full w-fit">
+                    <Icon className="h-6 w-6 text-green-600" />
                   </div>
                   <div className="text-3xl font-bold text-gray-900 mb-2">{stat.number}</div>
                   <div className="text-gray-600">{stat.label}</div>
@@ -90,8 +90,8 @@ const Features = () => {
             return (
               <Card key={index} className="transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
                 <CardHeader className="text-center">
-                  <div className="mx-auto mb-4 p-4 bg-blue-100 rounded-full w-fit">
-                    <Icon className="h-8 w-8 text-blue-600" />
+                  <div className="mx-auto mb-4 p-4 bg-green-100 rounded-full w-fit">
+                    <Icon className="h-8 w-8 text-green-600" />
                   </div>
                   <CardTitle className="text-xl">{feature.title}</CardTitle>
                 </CardHeader>
